@@ -24,6 +24,9 @@
     </section>
     
     <section class="content">
+      <div>
+        <iframe src="http://10.37.19.174:8080/app/kibana#/dashboard/17f48da0-5bfc-11e9-8419-bd8a5227ab97?embed=true&_g=()" height="600" width="100%"></iframe>
+      </div>
     </section>
     
   </div>

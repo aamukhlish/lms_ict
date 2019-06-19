@@ -1,6 +1,6 @@
 <header class="main-header">
   <!-- Logo -->
-  <a href="index2.html" class="logo">
+  <a href="<?php echo base_url('home')?>" class="logo">
     <!-- mini logo for sidebar mini 50x50 pixels -->
     <span class="logo-mini"><b>L</b>MS</span>
     <!-- logo for regular state and mobile devices -->
@@ -34,11 +34,11 @@
             </li>
             <!-- Menu Footer-->
             <li class="user-footer">
-              <div class="pull-left">
+              <!-- <div class="pull-left">
                 <a href="#" class="btn btn-default btn-flat">Profile</a>
-              </div>
+              </div> -->
               <div class="pull-right">
-                <a href="<?php echo base_url('logout'); ?>" class="btn btn-default btn-flat">Sign out</a>
+                  <a href="<?php echo base_url('logout'); ?>" class="btn btn-default btn-flat">Sign out</a>
               </div>
             </li>
           </ul>

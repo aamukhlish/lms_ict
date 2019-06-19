@@ -61,5 +61,7 @@ $route['sevWarning'] = 'Admin/sevWarning';
 $route['sevNotif'] = 'Admin/sevNotif';
 $route['sevInfo'] = 'Admin/sevInfo';
 $route['sevDebug'] = 'Admin/sevDebug';
+$route['blok'] = 'Admin/blok';
+$route['host'] = 'Admin/host';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

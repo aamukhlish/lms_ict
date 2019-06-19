@@ -15,7 +15,7 @@
     <ul class="sidebar-menu" data-widget="tree">
       <li class="header">MAIN MENU</li>
       <li>
-        <a href="<?php echo base_url('dashboard')?>">
+        <a href="<?php echo base_url('home')?>">
           <i class="fa fa-th"></i> <span>System Overview</span>
         </a>
       </li>
@@ -36,26 +36,18 @@
           <li><a href="<?php echo base_url('sevWarning');?>"><i class="fa fa-circle-o text-yellow"></i> Warning</a></li>
           <li><a href="<?php echo base_url('sevNotif');?>"><i class="fa fa-circle-o text-green"></i> Notification</a></li>
           <li><a href="<?php echo base_url('sevInfo');?>"><i class="fa fa-circle-o text-blue"></i> Information</a></li>
-          <li><a href="<?php echo base_url('sevDebug');?>"><i class="fa fa-circle-o text-aqua"></i> Debug</a></li>
+         <!--  <li><a href="<?php echo base_url('sevDebug');?>"><i class="fa fa-circle-o text-aqua"></i> Debug</a></li> -->
         </ul>
       </li>
-      <li class="treeview">
-        <a href="#">
-          <i class="fa fa-map-signs"></i> <span>Blok</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
+      <li>
+        <a href="<?php echo base_url('blok')?>">
+          <i class="fa fa-th"></i> <span>Blok</span>
         </a>
-        <ul class="treeview-menu">
-          <li><a href="<?php echo base_url('parkIn');?>"><i class="fa fa-circle-o"></i> Rektorat</a></li>
-          <li><a href="<?php echo base_url('parkOut');?>"><i class="fa fa-circle-o"></i> ICT</a></li>
-          <li><a href="<?php echo base_url('parkOut');?>"><i class="fa fa-circle-o"></i> FT</a></li>
-          <li><a href="<?php echo base_url('parkOut');?>"><i class="fa fa-circle-o"></i> FK</a></li>
-          <li><a href="<?php echo base_url('parkOut');?>"><i class="fa fa-circle-o"></i> FH</a></li>
-          <li><a href="<?php echo base_url('parkOut');?>"><i class="fa fa-circle-o"></i> FKM</a></li>
-          <li><a href="<?php echo base_url('parkOut');?>"><i class="fa fa-circle-o"></i> FSM</a></li>
-          <li><a href="<?php echo base_url('parkOut');?>"><i class="fa fa-circle-o"></i> FISIP</a></li>
-        </ul>
+      </li>
+      <li>
+        <a href="<?php echo base_url('host')?>">
+          <i class="fa fa-home"></i> <span>Host</span>
+        </a>
       </li>
     </ul>
   </section>

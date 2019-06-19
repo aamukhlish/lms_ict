@@ -50,6 +50,16 @@ class Admin extends CI_Controller{
     $this->load->view('admin/debug');
   }
 
+  public function blok()
+  {
+    $this->load->view('admin/blok');
+  }
+  
+  public function host()
+  {
+    $this->load->view('admin/host');
+  }
+  
   // public function downloadReport()
   // {
   //   $data['parklist'] = $this->admin_model->getParkList();

@@ -20,6 +20,7 @@
     </section>
     
     <section class="content">
+      <iframe src="http://10.37.19.174:8080/app/kibana#/dashboard/bdd38200-8ce7-11e9-a25b-dba521888637?embed=true&_g=()" height="600" width="100%"></iframe>
     </section>
     
   </div>

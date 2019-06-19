@@ -14,13 +14,12 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Severity
-        <small>Alert</small>
+        Dashboard Host Perangkat Jaringan Universitas Diponegoro
       </h1>
     </section>
     
     <section class="content">
-      <iframe src="http://10.37.19.174:8080/app/kibana#/dashboard/55122e60-9002-11e9-a25b-dba521888637?embed=true&_g=()" height="600" width="100%"></iframe>
+      <iframe src="http://10.37.19.174:8080/app/kibana#/dashboard/0b206aa0-91b6-11e9-a25b-dba521888637?embed=true&_g=()" height="600" width="100%"></iframe>
     </section>
     
   </div>
