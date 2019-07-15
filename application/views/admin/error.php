@@ -11,18 +11,7 @@
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
-    <!-- Content Header (Page header) -->
-    <section class="content-header">
-      <h1>
-        Severity
-        <small>Emergency</small>
-      </h1>
-    </section>
-    
-    <section class="content">
-      <iframe src="http://10.37.19.174:8080/app/kibana#/dashboard/a308e230-9007-11e9-a25b-dba521888637?embed=true&_g=()" height="600" width="100%"></iframe>
-    </section>
-    
+      <iframe class="respon-iframe"  src="http://10.37.19.174:8080/app/kibana#/dashboard/a308e230-9007-11e9-a25b-dba521888637?embed=true&_g=(refreshInterval%3A(pause%3A!f%2Cvalue%3A60000)%2Ctime%3A(from%3Anow-24h%2Cmode%3Aquick%2Cto%3Anow))"></iframe>
   </div>
   <!-- /.content-wrapper -->
 

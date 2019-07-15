@@ -17,6 +17,7 @@
   <!-- AdminLTE Skins. Choose a skin from the css/skins
        folder instead of downloading all of them to reduce the load. -->
   <link rel="stylesheet" href="<?php echo base_url('assets/template/back/dist') ?>/css/skins/_all-skins.min.css">
+  <script src="<?php echo base_url('assets/template/back/bower_components') ?>/bootstrap/dist/js/bootstrap.min.js" rel="stylesheet"></script>  
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -24,8 +25,25 @@
   <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
-
   <!-- Google Font -->
+  <style>
+	*.respon-iframe {
+	 height: calc(100vh - 110px) !important;
+	 width: 100% !important;
+	}
+  </style>
+  <style>
+                #notifications {
+                    cursor: pointer;
+                    position: fixed;
+                    right: 0px;
+                    z-index: 9999;
+                    bottom: 0px;
+                    margin-bottom: 22px;
+                    margin-right: 15px;
+                    max-width: 300px;
+                }
+                </style>
   <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 </head>

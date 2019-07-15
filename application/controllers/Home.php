@@ -58,11 +58,16 @@ class Home extends CI_Controller {
 				'privilleges' => $account->privilleges
 			 );
 			 $this->session->set_userdata($dataSession);
+			if($this->session->set_userdata($dataSession)){
+			 	$this->session->set_flashdata('success', 'Data berhasil disimpan');
+			 	redirect(base_url('profile'));
+			 }
 		} elseif ($this->input->post('updatePassword')) {
 			$this->Home_model->updatePassword();
 		}
-		$data['view_name'] = 'profile';
-		$this->load->view($data);
+//		$data['view_name'] = 'profile';
+		$this->load->view('admin/profile');
+		$this->session->set_flashdata('something','Data berhasil disimpan');
 	}
 
 	public function home()

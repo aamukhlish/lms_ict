@@ -11,27 +11,10 @@
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
-    <!-- Content Header (Page header) -->
-    <section class="content-header">
-      <h1>
-        Dashboard
-        <small>Version 2.0</small>
-      </h1>
-      <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active">Dashboard</li>
-      </ol>
-    </section>
-    
-    <section class="content">
-      <div>
-        <iframe src="http://10.37.19.174:8080/app/kibana#/dashboard/17f48da0-5bfc-11e9-8419-bd8a5227ab97?embed=true&_g=()" height="600" width="100%"></iframe>
-      </div>
-    </section>
-    
+	<iframe class="respon-iframe"  src="http://10.37.19.174:8080/app/kibana#/dashboard/367efeb0-7b85-11e9-8419-bd8a5227ab97?embed=tru&_g=(refreshInterval%3A(pause%3A!f%2Cvalue%3A60000)%2Ctime%3A(from%3Anow-24h%2Cmode%3Aquick%2Cto%3Anow))"></iframe>
   </div>
   <!-- /.content-wrapper -->
-
   <?php $this->load->view('admin/footer') ?>
+</div>
 </body>
 </html>

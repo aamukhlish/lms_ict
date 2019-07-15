@@ -41,12 +41,12 @@
       </li>
       <li>
         <a href="<?php echo base_url('blok')?>">
-          <i class="fa fa-th"></i> <span>Blok</span>
+          <i class="fa fa-th"></i> <span>Unit</span>
         </a>
       </li>
       <li>
         <a href="<?php echo base_url('host')?>">
-          <i class="fa fa-home"></i> <span>Host</span>
+          <i class="fa fa-home"></i> <span>Device</span>
         </a>
       </li>
     </ul>
